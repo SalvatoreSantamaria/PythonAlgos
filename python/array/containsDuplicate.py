@@ -11,7 +11,7 @@ class Solution:
 
 
 
-        Example 1:
+Example 1:
 
 Input: [1,2,3,1]
 Output: true
