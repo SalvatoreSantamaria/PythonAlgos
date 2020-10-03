@@ -1,0 +1,20 @@
+class Solution {
+    public int firstUniqChar(String s) {
+
+    //make array of integers with length of 26
+    int[] charCounts = new int[26];
+    
+    //loop through string s and add to the array
+    for (int i = 0; i < s.length(); i++) {
+      charCounts[s.charAt(i) - 'a']++;
+    }
+      
+    //loop through string s and compare against to find letter = to 1
+    for (int i = 0; i < s.length(); i++) {
+      if (charCounts[s.charAt(i) - 'a'] == 1) {
+        return i;
+      }
+    }
+      return -1;
+  }
+}
