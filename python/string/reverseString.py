@@ -8,3 +8,14 @@ class Solution:
           s[left], s[right] = s[right], s[left]
           left+= 1
           right-= 1
+
+
+# also
+
+# def f(x):
+
+#   string = x.strip()
+#   string = string[::-1]
+#   return string
+
+# print(f('hello'))
