@@ -67,5 +67,5 @@ integer = 123
 arr = ['1','2','3']
   #array to string
   str1 = ''
-  print(str1.join('arr'))
-  #prints 123
+  print(str1.join(arr))
+  #prints '123'
