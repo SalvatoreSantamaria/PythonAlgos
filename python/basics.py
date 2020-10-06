@@ -69,3 +69,15 @@ arr = ['1','2','3']
   str1 = ''
   print(str1.join(arr))
   #prints '123'
+
+#other
+  #array slice syntax
+  squares = [1, 4, 9, 16, 25]
+  squares[:] #shallow copy of the list, returns [1, 4, 9, 16, 25]
+  squares[1:] #[4, 9, 16, 25]
+  squares[:2] #[1, 4]
+
+  # reverse a string  
+  string = string[::-1]
+
+
